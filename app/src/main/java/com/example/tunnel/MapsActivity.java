@@ -49,7 +49,7 @@ public class MapsActivity extends MainActivity implements OnMapReadyCallback {
         //Creating text editor.
         mSearchText = (EditText) findViewById(R.id.Search_Input);
         // Initialize the SDK
-        Places.initialize(getApplicationContext(), "AIzaSyA5iMjzVLhN_pUtI7VSCckINvY_7q2o_Bs");
+        Places.initialize(getApplicationContext(), "API_KEY");
         //Making SearchText not focused
         mSearchText.setFocusable(false);
         //Creating Intent for button
