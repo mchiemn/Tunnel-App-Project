@@ -28,7 +28,7 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/AIzaSyA5iMjzVLhN_pUtI7VSCckINvY_7q2o_Bs"/>
+            android:value="API_KEY"/>
 
         <activity
             android:name="com.example.tunnel.MainActivity"
